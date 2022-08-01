@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "script";
+    src: url("fonts/AquilineTwo-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    display: flex;
+    background-color: #23272a;
+    color: #23272a;
+    max-width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .image {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    min-width: 25vw;
+    max-height: 60vw;
+  }
+  .image img {
+    width: auto;
+    height: 100%;
+  }
+  .center {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font: 4rem "script", impact;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  
+  .document {
+    background-color: #c5c5c5;
+    padding-top: 50px;
+    font-family: Roboto, Oxygen, Ubuntu, "Open Sans";
+    max-width: 50vw;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bodytext {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+  }
+  .entry {
+    display: flex;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0px 5px 5px #888888;
+    flex-direction: column;
+  }
+  .form {
+    display: flex;
+    font-family: Roboto, Oxygen, Ubuntu, "Open Sans";
+    font-size: 12px;
+    gap: 25px;
+    max-height: 300px;
+    max-width: 500px;
+    flex-wrap: wrap;
+  }
+  input {
+    height: 20px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+  }
+  input:focus {
+    outline: none;
+    box-shadow: 0px 1px 5px #888888;
+    border: 1px solid #355aff;
+    border-radius: 4px;
+    border-radius: 4px;
+  }
+  input:invalid {
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    border-radius: 4px;
+  }
+  .create {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .alreadyHave {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  button {
+    border: 0;
+    box-shadow: 0px 1px 5px #888888;
+    background-color: white;
+    color: #23272a;
+    font-family: Roboto, Oxygen, Ubuntu, "Open Sans";
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 1% 5%;
+    min-height: 40px;
+  }
+  button:hover {
+    background-color: #23272a;
+    color: white;
+  }
+  button:active {
+    background-color: rgb(139, 145, 90);
+    color: white;
+  }
+  .selfie{
+    display: block;
+    max-height: 200px;
+    max-width: 200px;
+    /*width: 100%;
+    height: auto;*/
+    overflow: hidden;
+    padding: 50px;
+  }
+  .selfie img {
+    width: 100%;
+    height: auto;
+  }
